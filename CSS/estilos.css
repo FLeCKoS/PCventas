@@ -1,0 +1,65 @@
+body {
+    background: rgb(104, 98, 203);
+    background: linear-gradient(90deg, rgba(104, 98, 203, 1) 0%, rgba(78, 157, 148, 1) 35%, rgba(66, 0, 255, 0.8589810924369747) 100%);
+}
+
+.landingpc {
+    background-color: rgba(18, 144, 77, 0.527) !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 5%;
+}
+
+.col1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.col2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#idhome {
+    cursor: pointer;
+}
+
+#btnlanding {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#img {
+    background-image: url(https://blog.seccionamarilla.com.mx/wp-content/uploads/2020/07/usos_profesionales_ventajas_pc_gamer-770x578.jpg);
+    padding: 200px 100px;
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px;
+}
+
+#img:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+#img h1 {
+    font-size: 60px;
+    color: rgb(218, 213, 213);
+    position: relative
+}
+
+.spacbtn {
+    padding-top: 5%;
+}
